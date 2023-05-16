@@ -33,4 +33,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // append to its parent
     const list = document.querySelector('ul')
     list.appendChild(newListItem)
+
+
+    // adding orange to the list
+    const newListItem2 = document.createElement('li')
+
+    newListItem2.textContent = 'Orange'
+    // add the orange class
+    newListItem2.classList.add('orange')
+    console.log(newListItem2)
+
+    // append to its parent
+    list.appendChild(newListItem2)
+
+
 })
